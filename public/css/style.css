@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+.bg-div {
+	background-color: #ffffff !important;
+	margin: 0px !important;
+}
+
+.bg {
+	background-image: url(../img/364-marmo-carrara-elegant-grey.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.mt-n1 {
+	margin-top: -0.25rem !important;
+}
+
+#myBtn {
+	position: fixed;
+	/* Fixed/sticky position */
+	bottom: 3%;
+	/* Place the button at the bottom of the page */
+	right: 50%;
+	left: 50%;
+	z-index: 100;
+	/* Make sure it does not overlap */
+	cursor: pointer;
+	/* Add a mouse pointer on hover */
+}
+
+#cabecalho a {
+	font-size: 12px;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	padding-left: 0.5rem;
+}
+
+#cabecalho a:hover {
+	text-decoration: underline;
+}
+
+#cabecalho img {
+	width: 22px;
+	height: 22px;
+	padding-right: 0.2rem;
+}
+
+#cabecalho2 a {
+	font-size: 12.5px;
+	font-weight: bold;
+	color: #ffffff;
+	text-decoration: none;
+	margin: 5px;
+}
+
+#cabecalho2 img {
+	width: 16px;
+	height: 16px;
+}
+
+#header {
+	width: 100%;
+	background-color: black;
+	transition: background ease-out 0.2s;
+}
+
+#header navbar-colapse {
+	width: auto;
+}
+
+#header .active {
+	border-bottom: solid 4px #c50208;
+}
+
+#header .nav-link {
+	text-transform: uppercase;
+	padding-left: 0;
+	padding-right: 0;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+div.d-lg-block ul.dropdown-menu {
+	background: rgba(0, 0, 0, 0.808);
+}
+
+div.d-lg-none ul.dropdown-menu {
+	background: none;
+	border: none;
+}
+
+div.d-lg-block a.dropdown-item {
+	color: #c50208;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+div.d-lg-none a.dropdown-item {
+	color: #c50208;
+	text-align: start;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 12px;
+}
+
+#zap {
+	text-align: center;
+	color: rgb(253, 252, 252);
+	background-color: rgb(52, 175, 35);
+	text-decoration: none;
+	font-size: 14px;
+	display: inline-block;
+	border-radius: 100px;
+	-webkit-transition: background-color 0.5s;
+	-o-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+	-webkit-box-shadow: 0px 2px 4px rgb(253, 252, 252);
+	/* Saf3-4 */
+	-moz-box-shadow: 0px 2px 4px rgb(253, 252, 252);
+	/* FF3.5 - 3.6 */
+	box-shadow: 0px 2px 4px rgb(253, 252, 252);
+}
+
+#zap:hover {
+	color: rgb(52, 175, 35);
+	background-color: rgb(253, 252, 252);
+	-webkit-box-shadow: 0px 2px 4px rgb(52, 175, 35);
+	/* Saf3-4 */
+	-moz-box-shadow: 0px 2px 4px rgb(52, 175, 35);
+	/* FF3.5 - 3.6 */
+	box-shadow: 0px 2px 4px rgb(52, 175, 35);
+}
+
+@keyframes map-anime {
+	from {
+		width: 24px;
+		height: 24px;
+	}
+
+	to {
+		width: 34px;
+		height: 34px;
+	}
+}
+
+#row-service h6 {
+	font-size: 15px;
+}
+
+#forthelove a {
+	font-size: 14px;
+}
+
+#forthelove img {
+	width: 120px;
+	height: 120px;
+	margin-bottom: auto;
+}
+
+#footer-menu {
+	background-color: black;
+	opacity: 0.9;
+}
+
+#footer-menu div {
+	list-style: none;
+}
+
+#footer-menu h1 {
+	color: rgb(253, 252, 252);
+}
+
+#footer-menu a {
+	color: rgb(253, 252, 252);
+	text-decoration: none;
+}
+
+.js .anime {
+	opacity: 0;
+	transform: translate3D(-50px, 0px, 0px);
+}
+
+.js .botao-anime {
+	opacity: 0;
+	transform: translate3D(0px, 50px, 0px);
+}
+
+.js .anime-init {
+	opacity: 1;
+	transform: translate3D(0px, 0px, 0px);
+	transition: .5s all ease;
+}
+
+section {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px 0;
+	text-align: center;
+}
+
+div#service div.card-img-overlay {
+	background-color: #000000ce;
+}
+
+div#service h3 {
+	color: #c50208;
+	font-weight: bolder;
+}
+
+div#service h2 {
+	color: #c50208;
+	font-weight: bolder;
+}
+
+div#service h1 {
+	color: #c50208;
+	font-weight: bolder;
+}
+
+.footer p {
+	font-weight: bolder;
+	margin-top: 5px;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s;
+}
+
+.myImg:hover {
+	opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+	display: none;
+	/* Hidden by default */
+	position: fixed;
+	/* Stay in place */
+	z-index: 1;
+	/* Sit on top */
+	padding-top: 100px;
+	/* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%;
+	/* Full width */
+	height: 100%;
+	/* Full height */
+	overflow: auto;
+	/* Enable scroll if needed */
+	background-color: rgb(0, 0, 0);
+	/* Fallback color */
+	background-color: rgba(0, 0, 0, 0.9);
+	/* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+	margin: auto;
+	display: block;
+	width: 80%;
+	max-width: 700px;
+	text-align: center;
+	color: #ccc;
+	padding: 10px 0;
+	height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+	animation-name: zoom;
+	animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+	from {
+		transform: scale(0)
+	}
+
+	to {
+		transform: scale(1)
+	}
+}
+
+/* The Close Button */
+.close {
+	position: absolute;
+	top: 15px;
+	right: 35px;
+	color: #f1f1f1;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+	color: #bbb;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+	.modal-content {
+		width: 100%;
+	}
+}
